@@ -1,0 +1,23 @@
+.button-container{
+    text-align: center;
+    margin-bottom: 3em;
+    margin-top: 1em;
+}
+
+button{
+    background-color: #FA9E0D;
+    color: white;
+    border: transparent;
+    padding: 16px 40px;
+    border-radius: 50px;
+    font-size: 1rem;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: white;
+    color: #FA9E0D;
+    border: 2px solid #FA9E0D;
+}

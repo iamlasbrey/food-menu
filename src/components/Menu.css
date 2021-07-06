@@ -1,0 +1,76 @@
+.menu{
+    box-shadow: 0px .5px 3px 2px rgb(0 0 0 / 20%);
+    margin-bottom: 2em;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.name-price{
+    padding: 10px;
+}
+
+.name-price-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .5em;
+}
+
+.server-with{
+    font-size: .9rem;
+    margin-bottom: .5em;
+}
+
+.choice-of{
+    font-size: .8rem;
+    line-break: 32px;
+}
+
+.stars-add{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.plus-container{
+    
+    height: 90px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FA9E0D;
+    border-top-left-radius: 20px;
+    margin-top: 2em;
+    color: white;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.plus-container:hover{
+    background-color: white;
+    color: #FA9E0D;
+    border: 2px solid #FA9E0D;
+    border-right: none;
+    border-bottom: none;
+}
+
+.star-container{
+    margin-left: 2em;
+}
+
+.fa-plus{
+    font-size: 2rem;
+}
+
+.fa-star{
+    color: #FA9E0D;
+}
